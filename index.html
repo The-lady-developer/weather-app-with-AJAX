@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Weather App</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+ </head>
+    <body>
+        <nav class="navbar navbar-default" id="nav_bar">
+           <div class="container">
+            <div class="navbar-header">
+               <a href="" class="navbar-brand navbar-link weather">
+                   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVz5tWXwcseOG31cAdrkIGBCoPPr-ay5pn4Cl6PGJ0MkObUDI1" class="img-responsive" id="logo"> <strong>Weather App</strong>
+                   </a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="navcol">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+               </div>
+               <div class="collapse navbar-collapse" id="navcol">
+                   <ul class="nav navbar-nav navbar-right" id="nav_list">
+                       <li><a href="current.html">Current</a></li>
+                       <li><a href="forecast.html">Forecast</a></li>
+                       <li><a href="http://www.openweathermap.org" target="_blank">Open Weather Map</a></li>
+                   </ul>
+                   
+            </div>
+            </div>
+        </nav>
+        <div class="row" id="headRow">
+        <div class="col-md-12" id="colText">
+            <h2 class="text-center" id="colHeadText1">The most simplest weather app. It's simple.</h2>
+            <h1 class="text-center" id="colHeadText2">Get weather information of any city.</h1>
+            <ul class="list-inline" id="list_item">
+                <li>Temperature</li>
+                <li>Pressure</li>
+                <li>Windspeed</li>
+                <li>Humidity</li>
+            </ul>
+         </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    </body>
+</html>
